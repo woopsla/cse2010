@@ -1,0 +1,7 @@
+2023-03-10 15:04:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FINGERPRINTS" not found; SQL statement:
+select path, text, md5 from fingerprints; [42102-214]
+2023-03-10 15:05:42 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DEPENDENCY_SOURCE" already exists; SQL statement:
+-- The relationship between library dependency sources under .metals/readonly/**
+-- and build targets they bel [42101-214]
